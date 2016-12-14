@@ -39,5 +39,10 @@
         ],
         "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php",
         "test": "phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "squizlabs/php_codesniffer": "^2.7",
+        "zendframework/zend-test": "^3.0"
     }
 }
